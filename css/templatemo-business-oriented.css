@@ -60,6 +60,12 @@ p {
     display: none;
   }
 }
+@media (max-width:1400px) {
+  .sp4 {
+ 
+    margin-left: 15px;
+  }
+}
 .card-img-top1 {
   display: none;
 }

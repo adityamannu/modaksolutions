@@ -9,6 +9,20 @@ body {
     overflow-x: hidden;
   }
 }
+.mobile-nav{
+  display: none;
+}
+@media (max-width:1400px) {
+  .mobile-nav{
+    display: block;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    background: white;
+  }
+}
 
 a {
   transition: all 0.3s ease;
@@ -25,6 +39,7 @@ button:focus {
 p {
   color: #666;
   line-height: 1.9;
+  text-align: justify;
 }
 
 .tm-title-gray {
@@ -74,7 +89,7 @@ p {
     height: 250px;
     width: 320px;
     display: unset;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     margin-top: 5px;
   }
 }
@@ -105,11 +120,6 @@ p {
     margin-left: -100px;
   }
 }
-@media (max-width:1400px) {
-  .abc {
-    
-  }
-}
 
 
 
@@ -137,6 +147,19 @@ p {
     width: 57%;
   }
 }
+.mf {
+ display: none;
+}
+@media (max-width:1400px) {
+  .mf {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    
+  }
+}
+
+
 .tm-hr3 {
   width: 240px;
   border-top: 3px solid #0099ff;
@@ -234,7 +257,8 @@ tm-thr2 {
       top: 42%;
       left: 40%;
       transform: translate(-50%,-50%);
-      width: 300px;
+      width: 350px;
+      text-transform: uppercase;
     
     
   }
@@ -283,6 +307,7 @@ tm-thr2 {
   color: white; 
   font-size: 30px; 
   font-weight: 900;
+  text-transform: uppercase;
   
 }
 @media (max-width:1400px) {
@@ -303,6 +328,7 @@ tm-thr2 {
 #parallax-1 {
   min-height: 690px;
 }
+
 #parallax-2 {
   min-height: 590px;
 }
@@ -338,6 +364,12 @@ tm-thr2 {
   border-bottom: 1px solid #cccdce;
   margin-right: 280px;
   
+  }
+}
+@media (max-width:1400px) {
+  .fx1 {
+    margin-left: 55px;
+  position: fixed;
   }
 }
 @media (max-width:1400px) {
@@ -1343,7 +1375,7 @@ select:not([multiple]) {
 @media (max-width:1400px) {
   .buts {
    margin-right: -70px;
-    font-size: 10px;
+    font-size: 13px;
     padding-right: 60px;
     padding-left: -80px;
     margin-left: -10px;
@@ -1353,7 +1385,7 @@ select:not([multiple]) {
 @media (max-width:1400px) {
   .buts1 {
    margin-right: -70px;
-    font-size: 10px;
+    font-size: 13px;
     padding-right: 65px;
     padding-left: -80px;
     margin-left: -22px;
@@ -1363,7 +1395,7 @@ select:not([multiple]) {
 @media (max-width:1400px) {
   .buts2 {
    margin-right: -70px;
-    font-size: 10px;
+    font-size: 13px;
     padding-right: 65px;
     padding-left: -80px;
     margin-left: -22px;
@@ -1373,7 +1405,7 @@ select:not([multiple]) {
 @media (max-width:1400px) {
   .buts3 {
    margin-right: -70px;
-    font-size: 10px;
+    font-size: 13px;
     padding-right: 65px;
     padding-left: -80px;
     margin-left: -25px;
